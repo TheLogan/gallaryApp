@@ -5,6 +5,8 @@ const App = () => {
   return <Text>Upload image</Text>;
 };
 
+// I can make changes too ! 
+
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
