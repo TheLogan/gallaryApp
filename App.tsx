@@ -1,3 +1,10 @@
+import React from 'react';
+import {Text} from 'react-native';
+
+const App = () => {
+  return <Text>Upload image</Text>;
+};
+
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -8,7 +15,7 @@
  * @format
  */
 
-import React from 'react';
+/*import React from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,10 +32,10 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+*/
+//declare const global: {HermesInternal: null | {}};
 
-declare const global: {HermesInternal: null | {}};
-
-const App = () => {
+/*const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -74,9 +81,9 @@ const App = () => {
       </SafeAreaView>
     </>
   );
-};
+};*/
 
-const styles = StyleSheet.create({
+/*const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
   },
@@ -114,5 +121,5 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
 });
-
+*/
 export default App;
