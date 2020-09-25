@@ -4,6 +4,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
-    all: "warn"
+    semi: "warn"
   }
 };

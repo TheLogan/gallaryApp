@@ -1,11 +1,21 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, Button} from 'react-native';
 
 const App = () => {
-  return <Text>Upload image</Text>;
+  return (
+    <>
+      <Text>Upload image</Text>
+      <Button
+        title="Upload image"
+        onPress={() => {
+          console.log('Upload image');
+        }}
+      />
+    </>
+  );
 };
 
-// I can make changes too ! 
+// I can make changes too !
 
 /**
  * Sample React Native App
